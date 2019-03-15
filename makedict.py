@@ -6,5 +6,5 @@ for i in range(n):
 	v = input("Enter %d value:"%(i+1))
 	lst1.append(k)
 	lst2.append(v)
-	d = dict(zip(lst1,lst2))
+d = dict(zip(lst1,lst2))
 print(d)
